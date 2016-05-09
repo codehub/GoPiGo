@@ -68,7 +68,7 @@ public class GopigoCommanderTest implements GopigoListener {
     System.out.println("[Status Changed]");
     switch (event.status) {
       case Statuses.INIT:
-        System.out.println("OK Init");
+        System.out.println("OK Init:");
         break;
       case Statuses.HALT:
         System.out.println("WARN Halt");
